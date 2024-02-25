@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="signup.css">
+  <title>Signup Page</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1 class="t90">Signup</h1>
+    <form>
+      <label for="Email" class="yo">Email</label><br>
+      <input type="text" id="t3" name="email" required><br>
+
+      <label for="psw" class="yo1">Password</label><br>
+      <input type="password" id="t4" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+        title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+        required>
+
+      <input type="button" value="Register" id="btn1" onclick="fun1()">
+    </form>
+    <div id="message">
+      <h3>Password must contain the following:</h3>
+      <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+      <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+      <p id="number" class="invalid">A <b>number</b></p>
+      <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+    </div>
+  </div>
+ 
+  <script src="signup.js"></script>
+
+</body>
+
+</html>

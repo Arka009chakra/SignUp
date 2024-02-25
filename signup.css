@@ -1,0 +1,116 @@
+/* Style all input fields */
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+ #t22{
+  width:240px;
+  height:36px;
+  border-radius: 7px;
+  background: transparent;
+  padding: 5px;
+  margin-left: 30px;
+  color:rgb(237, 84, 135);
+ }
+ #t3{
+  width:240px;
+  height:36px;
+  border-radius: 7px;
+  background: transparent;
+  padding: 5px;
+  margin-left: 30px;
+  color:rgb(237, 84, 135);
+ }
+ .t90{
+  text-align: center;
+  color:rgb(237, 84, 135);
+ }
+ #t4{
+  width:240px;
+  height:36px;
+  border-radius: 7px;
+  background: transparent;
+  padding: 5px;
+  margin-left: 30px;
+  color:rgb(237, 84, 135);
+ }
+ #btn1{
+    height:40px;
+    width:230px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 10px;
+    background-color: rgb(237, 84, 135);
+}
+body{
+  background: #3a4452;
+  background-image: url("p1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;  
+}
+  
+  /* Style the container for inputs */
+  .container {
+    height:320px;
+    width:300px;
+    background-color: #e7edf6;
+    margin-left:480px;
+    margin-top:40px;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1),5px 5px 15px rgba(0,0,0,0.2); 
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    background:transparent;
+    backdrop-filter: blur(20px)
+  }
+  
+  /* The message box is shown when the user clicks on the password field */
+  #message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  #message p {
+    padding: 10px 35px;
+    font-size: 15px;
+  }
+  
+  /* Add a green text color and a checkmark when the requirements are right */
+  .valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+  }
+  
+  /* Add a red text color and an "x" when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+  }
+.yo{
+    color:rgb(237, 84, 135);
+    margin-left: 30px;
+  }
+.yo1{
+    color:rgb(237, 84, 135);
+    margin-left: 30px;
+  }
